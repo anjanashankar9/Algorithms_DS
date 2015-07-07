@@ -1,7 +1,6 @@
 package algorithms.graphs.easy;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 /**
  * Created by ashankar1 on 7/6/15.
