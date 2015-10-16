@@ -10,15 +10,18 @@
 public class Dag {
     public static void main(String args[]){
 
-        Graph G = new Graph(6);
+        Graph g = new Graph(6);
 
-        G.addEdge(5, 2);
-        G.addEdge(5, 0);
-        G.addEdge(4, 0);
-        G.addEdge(4, 1);
-        G.addEdge(2, 3);
-        G.addEdge(3, 1);
+        g.addEdge(0, 1);
+        g.addEdge(0, 2);
+        g.addEdge(1, 2);
+        g.addEdge(2, 0);
+        g.addEdge(2, 3);
+        g.addEdge(3, 3);
 
-        G.topologicalSort();
+        if(g.isCyclic())
+            System.out.println("Graph contains cycle");
+        else
+            System.out.println("Graph doesn't contain cycle");
     }
 }
