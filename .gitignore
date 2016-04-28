@@ -5,3 +5,4 @@
 *.settings
 */bin*
 *.class
+.DS_Store
