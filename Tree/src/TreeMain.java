@@ -20,7 +20,11 @@ public class TreeMain {
 
 		tree.inOrderTraversal();
 		System.out.println();
-		tree.inOrderTraversalIter();
+
+		tree.mirrorTree();
+		tree.inOrderTraversal();
+		System.out.println();
+		/*tree.inOrderTraversalIter();
 		System.out.println();
 		tree.preOrderTraversal();
 		System.out.println();
@@ -35,7 +39,7 @@ public class TreeMain {
 		int size = tree.getSize();
 		System.out.println("Size : "+size);
 		int height = tree.getHeight();
-		System.out.println("Height : "+height);
+		System.out.println("Height : "+height);*/
 		
 		/*tree.remove(7);
 		
