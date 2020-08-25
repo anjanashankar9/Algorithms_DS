@@ -6,3 +6,4 @@
 */bin*
 *.class
 .DS_Store
+out/

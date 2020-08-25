@@ -21,8 +21,13 @@ public class TreeMain {
 		tree.inOrderTraversal();
 		System.out.println();
 
-		tree.mirrorTree();
-		tree.inOrderTraversal();
+//		tree.mirrorTree();
+//		tree.inOrderTraversal();
+
+        System.out.println(tree.findLCA(1, 3).getData());
+        System.out.println(tree.findLCA(1, 2).getData());
+        System.out.println(tree.findLCA(4, 10).getData());
+        System.out.println(tree.findLCA(4, 5).getData());
 		System.out.println();
 		/*tree.inOrderTraversalIter();
 		System.out.println();
